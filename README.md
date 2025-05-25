@@ -395,3 +395,311 @@ Expected Output: [Format output yang diinginkan]
 
 **Template untuk Bug Fixing:**
 ```
+Bug Description: [Jelaskan bug yang terjadi]
+Steps to Reproduce:
+1. [Step 1]
+2. [Step 2]
+3. [Step 3]
+
+Expected Behavior: [Apa yang seharusnya terjadi]
+Actual Behavior: [Apa yang sebenarnya terjadi]
+Error Messages: [Copy-paste error message lengkap]
+Environment: [Browser, OS, Node version, etc.]
+```
+
+**Template untuk Code Review:**
+```
+Changes Made:
+- [Change 1]
+- [Change 2]
+
+Review Focus:
+- [Security implications]
+- [Performance impact]
+- [Breaking changes]
+
+Testing Done:
+- [Test scenarios covered]
+```
+
+### 2. Use Progressive Context Building
+```
+Step 1: "Saya sedang membuat authentication system untuk e-commerce app"
+Step 2: "Tech stack: Next.js, TypeScript, Prisma, PostgreSQL"
+Step 3: "Need to implement JWT-based auth dengan refresh token"
+Step 4: "Security requirements: rate limiting, password hashing"
+```
+
+## 📁 File Organization
+
+### 1. Consistent Folder Structure
+```
+src/
+├── components/          # Reusable UI components
+│   ├── ui/             # Basic UI elements (Button, Input, etc.)
+│   ├── forms/          # Form components
+│   └── layout/         # Layout components (Header, Sidebar)
+├── pages/              # Next.js pages atau route components
+├── hooks/              # Custom React hooks
+├── services/           # API calls dan business logic
+├── utils/              # Utility functions
+├── types/              # TypeScript type definitions
+├── constants/          # App constants
+└── styles/             # Global styles dan themes
+```
+
+### 2. Feature-Based Organization
+```
+features/
+├── auth/
+│   ├── components/     # Auth-specific components
+│   ├── hooks/          # Auth-related hooks
+│   ├── services/       # Auth API calls
+│   └── types/          # Auth type definitions
+├── products/
+│   ├── components/
+│   ├── hooks/
+│   ├── services/
+│   └── types/
+└── orders/
+    ├── components/
+    ├── hooks/
+    ├── services/
+    └── types/
+```
+
+### 3. Co-location Strategy
+```
+Button/
+├── Button.tsx          # Main component
+├── Button.test.tsx     # Unit tests
+├── Button.stories.tsx  # Storybook stories
+├── Button.module.css   # Component styles
+└── index.ts            # Barrel export
+```
+
+## ✅ Best Practices
+
+### 1. Context is King
+- Selalu berikan context business yang jelas
+- Include tech stack dan constraints
+- Share relevant error messages dan logs
+- Explain the "why" behind requests
+
+### 2. Incremental Development
+- Start with simple implementations
+- Iterate berdasarkan feedback
+- Add complexity gradually
+- Test each increment
+
+### 3. Documentation-Driven Development
+- Write documentation first
+- Use comments untuk complex logic
+- Keep README updated
+- Document decisions dan trade-offs
+
+### 4. Quality Gates
+- Set up automated testing
+- Use linting dan formatting tools
+- Implement code review process
+- Monitor performance metrics
+
+## 🚀 Advanced Tips
+
+### 1. Multi-File Context Management
+```
+// Technique: Reference multiple files
+"Looking at components/ProductCard.tsx dan services/productService.ts, 
+I need to add filtering functionality yang consistent dengan existing patterns."
+```
+
+### 2. Conversation Continuity
+```
+// Technique: Build on previous context
+"Following up on the authentication implementation kita discuss tadi,
+now I need to add authorization middleware untuk protected routes."
+```
+
+### 3. Iterative Refinement
+```
+// Technique: Progressive improvement
+"The code works, but can we optimize untuk better performance?
+Specifically looking at reducing database queries."
+```
+
+### 4. Error-Driven Development
+```
+// Technique: Learn from errors
+"I'm getting this error: [error message]. 
+Based on our previous discussion about error handling patterns,
+what's the best approach untuk resolve this?"
+```
+
+## 🔧 Troubleshooting
+
+### Common Issues dan Solutions
+
+#### 1. **AI Generates Generic Code**
+**Problem:** Output terlalu generic, tidak sesuai project context
+**Solution:** 
+- Add more specific context dalam prompt
+- Reference existing code patterns
+- Include business requirements
+- Use project-specific terminology
+
+#### 2. **Inconsistent Architecture**
+**Problem:** AI suggests different patterns untuk similar problems
+**Solution:**
+- Create clear architecture rules dalam `.cursor/rules/`
+- Reference existing implementations
+- Define preferred patterns explicitly
+- Use consistent naming conventions
+
+#### 3. **Missing Error Handling**
+**Problem:** Generated code doesn't handle errors properly
+**Solution:**
+- Include error handling requirements dalam prompt
+- Reference existing error patterns
+- Specify error types dan responses expected
+- Include testing scenarios untuk error cases
+
+#### 4. **Performance Issues**
+**Problem:** Generated code tidak optimal untuk performance
+**Solution:**
+- Include performance requirements
+- Specify expected load dan constraints
+- Reference performance patterns
+- Ask for specific optimizations
+
+#### 5. **Security Vulnerabilities**
+**Problem:** Generated code has security issues
+**Solution:**
+- Include security requirements dalam prompt
+- Reference security best practices
+- Specify compliance requirements
+- Ask for security review
+
+### Debug Strategies
+
+#### 1. **Context Debugging**
+```
+// Check if AI understands your context
+"Based on our conversation, what do you understand about 
+the current project architecture dan requirements?"
+```
+
+#### 2. **Pattern Verification**
+```
+// Verify consistency
+"Is this implementation consistent dengan patterns 
+we established untuk similar features?"
+```
+
+#### 3. **Incremental Testing**
+```
+// Test understanding step by step
+"Let's start dengan basic implementation first,
+then add complexity once basic version works."
+```
+
+## 📊 Measuring Success
+
+### Key Performance Indicators (KPIs)
+
+#### 1. **Development Speed**
+- Time from request to working solution
+- Number of iterations needed
+- Reduction in debugging time
+- Faster feature completion
+
+#### 2. **Code Quality**
+- Reduced code review feedback
+- Lower bug rate dalam production
+- Better test coverage
+- Improved maintainability scores
+
+#### 3. **Team Productivity**
+- Less time spent on repetitive tasks
+- More focus on business logic
+- Faster onboarding untuk new team members
+- Improved knowledge sharing
+
+#### 4. **Learning Acceleration**
+- Faster adoption of new technologies
+- Better understanding of best practices
+- Improved architectural decisions
+- Enhanced problem-solving skills
+
+### Success Metrics
+
+#### Weekly Tracking:
+```
+✅ Features completed dengan AI assistance
+✅ Time saved on repetitive coding tasks
+✅ Number of best practices applied
+✅ Code review cycles reduced
+✅ Bugs caught during development vs production
+```
+
+#### Monthly Review:
+```
+📈 Development velocity trends
+📈 Code quality improvements
+📈 Team satisfaction scores
+📈 Knowledge base growth
+📈 Process optimization achievements
+```
+
+### Continuous Improvement
+
+#### 1. **Regular Retrospectives**
+- What worked well dengan AI assistance?
+- What challenges did we face?
+- How can we improve our prompts?
+- What patterns should we document?
+
+#### 2. **Knowledge Base Updates**
+- Update `.cursor/rules/` berdasarkan learnings
+- Add new templates untuk common scenarios
+- Document successful interaction patterns
+- Share best practices dengan team
+
+#### 3. **Tool Optimization**
+- Refine prompt templates
+- Improve context management strategies
+- Optimize file organization
+- Enhance collaboration workflows
+
+---
+
+## 🎯 Quick Start Checklist
+
+### Day 1: Setup
+- [ ] Create `.cursor/rules/` directory
+- [ ] Write basic project context rules
+- [ ] Set up consistent file structure
+- [ ] Define initial coding standards
+
+### Week 1: Foundation
+- [ ] Practice structured prompts
+- [ ] Build context gradually
+- [ ] Document successful patterns
+- [ ] Establish quality gates
+
+### Month 1: Optimization
+- [ ] Refine rules berdasarkan experience
+- [ ] Measure dan track improvements
+- [ ] Share knowledge dengan team
+- [ ] Continuous iteration dan improvement
+
+---
+
+**Remember**: Cursor AI is most effective when given clear context, specific requirements, dan consistent patterns. Invest time dalam setup dan context building untuk maximum productivity! 🚀
+
+## 🔗 Resources
+
+- [🚀 Quick Reference](guides/quick-reference.md) - Cheat sheet untuk tips yang sering digunakan
+- [Prompt Templates](examples/prompt-templates.md)
+- [Advanced Techniques](examples/advanced-techniques.md)
+- [Best Practices Guide](guides/best-practices-and-pitfalls.md)
+- [Comprehensive Cursor Rules](guides/cursor-rules-comprehensive.md)
