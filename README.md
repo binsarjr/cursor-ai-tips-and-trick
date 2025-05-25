@@ -23,6 +23,15 @@ Mulai dengan fondasi yang kuat. Pelajari cara setup workspace, konfigurasi `.cur
 - Environment setup dan tool integration
 - Advanced configuration untuk multi-environment dan team collaboration
 
+### 🔌 [MCP Integration Guide](guides/mcp-integration-guide.md) ⭐ NEW!
+Master Model Context Protocol (MCP) untuk capabilities yang lebih powerful. Context7 dan Sequential Thinking mengubah cara Anda berinteraksi dengan AI.
+
+**🎯 Yang Akan Anda Pelajari:**
+- Setup Context7 MCP untuk up-to-date documentation
+- Sequential Thinking MCP untuk complex problem solving
+- Essential MCP servers recommendations (Memory, GitHub, Database)
+- Advanced workflows dan best practices dengan multiple MCPs
+
 ### 🎯 [Context Management & Prompt Engineering](guides/context-and-prompt-engineering.md)
 Master seni berkomunikasi dengan AI. Context yang baik = output yang excellent.
 
@@ -71,6 +80,16 @@ Koleksi lengkap template prompt yang siap pakai untuk berbagai skenario developm
 - Documentation, UI/UX & Database
 - DevOps & Performance Optimization
 
+### 🔌 [MCP Configuration Examples](examples/mcp-configurations.md) ⭐ NEW!
+Koleksi konfigurasi MCP untuk berbagai skenario development dan team setup.
+
+**Configuration Categories:**
+- Basic Setup (Individual Developer)
+- Team Development (Frontend, Full-Stack, DevOps)
+- Project-Specific (React/Next.js, Node.js, Infrastructure)
+- Environment-Specific (Development, Production)
+- Platform-Specific (Windows, macOS, Docker)
+
 ### 🚀 [Advanced Techniques](examples/advanced-techniques.md)
 Teknik tingkat lanjut untuk developer yang ingin memaksimalkan potensi AI.
 
@@ -95,48 +114,66 @@ Cheat sheet untuk tips dan trik yang paling sering digunakan. Perfect untuk refe
 
 ## 🎯 Getting Started - Roadmap 4 Minggu
 
-### Week 1: Foundation
+### Week 1: Foundation + MCP Setup
 - [ ] Setup `.cursor/rules/` dengan basic project context
+- [ ] **Setup Context7 MCP** untuk up-to-date documentation access
+- [ ] **Setup Sequential Thinking MCP** untuk complex problem solving
 - [ ] Practice structured prompting dengan templates
+- [ ] **Practice "use context7" pattern** dalam daily development
 - [ ] Establish consistent file organization
 - [ ] Document 3 successful interaction patterns
 
-### Week 2: Context Mastery  
+### Week 2: Context Mastery + Advanced MCP
 - [ ] Implement progressive context building
+- [ ] **Add Memory MCP** untuk conversation persistence
+- [ ] **Setup File System MCP** untuk better code analysis
 - [ ] Create domain-specific vocabulary
 - [ ] Practice multi-file context management
+- [ ] **Combine Context7 + Sequential Thinking** untuk complex tasks
 - [ ] Build conversation continuity skills
 
-### Week 3: Advanced Techniques
+### Week 3: Advanced Techniques + MCP Optimization
 - [ ] Implement advanced prompt patterns
+- [ ] **Setup domain-specific MCPs** (GitHub, Database sesuai needs)
 - [ ] Setup performance monitoring
 - [ ] Create team-specific rules
+- [ ] **Optimize MCP configurations** untuk performance
 - [ ] Practice troubleshooting scenarios
+- [ ] **Practice advanced MCP workflows** (full-stack development, bug hunting)
 
-### Week 4: Optimization & Measurement
-- [ ] Measure development speed improvement
+### Week 4: Optimization & Measurement + MCP Mastery
+- [ ] Measure development speed improvement (including MCP impact)
+- [ ] **Create project-specific MCP configurations**
 - [ ] Optimize based pada metrics
+- [ ] **Share MCP configurations** dengan tim
 - [ ] Share knowledge dengan tim
+- [ ] **Measure MCP success metrics** (faster library integration, better problem solving)
 - [ ] Plan long-term improvement strategy
 
 ## 📊 Expected Results
 
-Berdasarkan pengalaman komunitas, setelah mengikuti panduan ini, Anda dapat expect:
+Berdasarkan pengalaman komunitas, setelah mengikuti panduan ini (termasuk MCP integration), Anda dapat expect:
 
-**Month 1-2: Foundation**
+**Month 1-2: Foundation + Basic MCP**
 - 20-30% faster routine coding tasks
+- **50%+ faster library integration** dengan Context7
 - Improved code consistency
 - Reduced debugging time
+- **Always up-to-date code patterns** without research
 
-**Month 3-4: Intermediate**
+**Month 3-4: Intermediate + Advanced MCP**
 - 40-50% development speed increase
+- **Systematic problem-solving** dengan Sequential Thinking
 - Better architecture decisions
 - Reduced code review cycles
+- **Enhanced research capabilities** dengan real-time documentation
 
-**Month 5-6: Advanced**
+**Month 5-6: Advanced + MCP Mastery**
 - 60%+ productivity improvement
+- **Complex problem solving becomes methodical**
 - Leading team best practices
 - Measurable business impact
+- **Team-wide MCP adoption** dan knowledge sharing
 
 ## 🤝 Contributing
 
