@@ -14,7 +14,7 @@ Cursor AI adalah game-changer dalam dunia development, tapi untuk mendapatkan ha
 
 ## 📚 Panduan Lengkap
 
-### 🔧 [Setup dan Konfigurasi](guides/setup-and-configuration.md)
+### 🔧 [01. Setup dan Konfigurasi](guides/01-setup-and-configuration.md)
 Mulai dengan fondasi yang kuat. Pelajari cara setup workspace, konfigurasi `.cursor/` directory, dan optimasi environment untuk produktivitas maksimal.
 
 **🎯 Yang Akan Anda Pelajari:**
@@ -23,7 +23,7 @@ Mulai dengan fondasi yang kuat. Pelajari cara setup workspace, konfigurasi `.cur
 - Environment setup dan tool integration
 - Advanced configuration untuk multi-environment dan team collaboration
 
-### 🔌 [MCP Integration Guide](guides/mcp-integration-guide.md) ⭐ NEW!
+### 🔌 [02. MCP Integration Guide](guides/02-mcp-integration-guide.md) ⭐ NEW!
 Master Model Context Protocol (MCP) untuk capabilities yang lebih powerful. Context7 dan Sequential Thinking mengubah cara Anda berinteraksi dengan AI.
 
 **🎯 Yang Akan Anda Pelajari:**
@@ -32,7 +32,7 @@ Master Model Context Protocol (MCP) untuk capabilities yang lebih powerful. Cont
 - Essential MCP servers recommendations (Memory, GitHub, Database)
 - Advanced workflows dan best practices dengan multiple MCPs
 
-### 🎯 [Context Management & Prompt Engineering](guides/context-and-prompt-engineering.md)
+### 🎯 [03. Context Management & Prompt Engineering](guides/03-context-and-prompt-engineering.md)
 Master seni berkomunikasi dengan AI. Context yang baik = output yang excellent.
 
 **🎯 Yang Akan Anda Pelajari:**
@@ -41,7 +41,7 @@ Master seni berkomunikasi dengan AI. Context yang baik = output yang excellent.
 - Advanced prompt patterns (iterative refinement, comparison, role-playing)
 - Multi-file context management dan conversation continuity
 
-### 🔧 [Troubleshooting & Optimization](guides/troubleshooting-and-optimization.md)
+### 🔧 [04. Troubleshooting & Optimization](guides/06-troubleshooting-and-optimization.md)
 Atasi masalah umum dan optimalkan workflow Anda untuk efisiensi maksimal.
 
 **🎯 Yang Akan Anda Pelajari:**
@@ -50,16 +50,7 @@ Atasi masalah umum dan optimalkan workflow Anda untuk efisiensi maksimal.
 - Advanced optimization techniques
 - Performance monitoring dan continuous improvement
 
-### 📊 [Measuring Success](guides/measuring-success.md)
-Track progress dan demonstrate ROI dari AI-assisted development.
-
-**🎯 Yang Akan Anda Pelajari:**
-- Key Performance Indicators (KPIs) untuk AI development
-- Measurement framework (daily, weekly, monthly tracking)
-- Success benchmarks dan tier progression
-- ROI calculation dan business impact assessment
-
-### 📜 [Comprehensive Cursor Rules Guide](guides/cursor-rules-comprehensive.md)
+### 📜 [04. Comprehensive Cursor Rules Guide](guides/04-cursor-rules-comprehensive.md)
 Deep dive ke dalam Cursor Rules - rahasia mendapatkan output AI yang konsisten dan berkualitas.
 
 **🎯 Yang Akan Anda Pelajari:**
@@ -67,6 +58,24 @@ Deep dive ke dalam Cursor Rules - rahasia mendapatkan output AI yang konsisten d
 - Advanced rules techniques dan conditional logic
 - Team-specific rules management
 - Rules effectiveness measurement
+
+### ✅ [05. Best Practices & Common Pitfalls](guides/05-best-practices-and-pitfalls.md)
+Pelajari dari pengalaman komunitas - apa yang berhasil dan apa yang harus dihindari.
+
+**🎯 Yang Akan Anda Pelajari:**
+- Quality assurance checklists
+- Common pitfalls (One-Shot Trap, Magic Code Trap, Over-engineering)
+- Productivity optimization strategies
+- Success metrics dan continuous learning
+
+### 📊 [07. Measuring Success](guides/07-measuring-success.md)
+Track progress dan demonstrate ROI dari AI-assisted development.
+
+**🎯 Yang Akan Anda Pelajari:**
+- Key Performance Indicators (KPIs) untuk AI development
+- Measurement framework (daily, weekly, monthly tracking)
+- Success benchmarks dan tier progression
+- ROI calculation dan business impact assessment
 
 ## 🎨 Examples & Templates
 
@@ -100,16 +109,7 @@ Teknik tingkat lanjut untuk developer yang ingin memaksimalkan potensi AI.
 - Architecture design patterns
 - Domain-specific techniques untuk berbagai tech stacks
 
-### ✅ [Best Practices & Common Pitfalls](guides/best-practices-and-pitfalls.md)
-Pelajari dari pengalaman komunitas - apa yang berhasil dan apa yang harus dihindari.
-
-**Key Topics:**
-- Quality assurance checklists
-- Common pitfalls (One-Shot Trap, Magic Code Trap, Over-engineering)
-- Productivity optimization strategies
-- Success metrics dan continuous learning
-
-## 🚀 [Quick Reference](guides/quick-reference.md)
+## 🚀 [08. Quick Reference](guides/08-quick-reference.md)
 Cheat sheet untuk tips dan trik yang paling sering digunakan. Perfect untuk referensi cepat saat coding.
 
 ## 🎯 Getting Started - Roadmap 4 Minggu
@@ -205,7 +205,7 @@ Repository ini menggunakan MIT License. Feel free untuk use, modify, dan distrib
 
 ## 🚀 Start Your Journey
 
-Mulai dengan [Setup dan Konfigurasi](guides/setup-and-configuration.md) untuk membangun fondasi yang kuat, kemudian lanjutkan ke [Context Management](guides/context-and-prompt-engineering.md) untuk master komunikasi dengan AI.
+Mulai dengan [Setup dan Konfigurasi](guides/01-setup-and-configuration.md) untuk membangun fondasi yang kuat, kemudian lanjutkan ke [Context Management](guides/03-context-and-prompt-engineering.md) untuk master komunikasi dengan AI.
 
 **💡 Pro Tip**: Jangan rush untuk menguasai semua sekaligus. Build skills secara incremental, dan yang paling penting - practice consistently! Setiap developer memiliki style yang berbeda, jadi adapt these techniques sesuai dengan workflow Anda.
 
