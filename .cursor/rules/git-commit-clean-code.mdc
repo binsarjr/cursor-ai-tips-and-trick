@@ -1,0 +1,79 @@
+---
+description: when using git commit
+globs: 
+alwaysApply: false
+---
+# Git Commit Clean Code Rules
+
+## Language Format
+Set your preferred language for commit messages:
+- `lang: en` - English commits
+- `lang: id` - Indonesian commits  
+- `lang: auto` - Auto detect from context
+
+## Basic Format
+```
+<type>(<scope>): <subject>
+```
+
+## Types
+- **feat** - New feature
+- **fix** - Bug fix  
+- **docs** - Documentation
+- **style** - Code style (no logic change)
+- **refactor** - Code refactoring
+- **test** - Tests
+- **chore** - Maintenance
+
+## Subject Rules
+- Max 50 characters
+- Lowercase start (except proper nouns)
+- No period at end
+- Use imperative mood
+
+## Examples
+
+### English (lang: en)
+```bash
+git commit -m "feat: add user authentication"
+git commit -m "fix(api): resolve timeout issue"
+git commit -m "docs: update API documentation"
+```
+
+### Indonesian (lang: id)  
+```bash
+git commit -m "feat: tambah autentikasi user"
+git commit -m "fix(api): perbaiki masalah timeout"  
+git commit -m "docs: perbarui dokumentasi API"
+```
+
+## Multi-line Commits
+Use multiple `-m` flags for longer descriptions:
+
+```bash
+git commit -m "feat: implement order tracking" \
+  -m "- Add real-time status updates" \
+  -m "- Integrate with notification system"
+```
+
+## Quick Commands
+```bash
+# Stage specific files
+git add <files>
+
+# Commit with scope
+git commit -m "type(scope): message"
+
+# Amend last commit  
+git commit --amend -m "new message"
+```
+
+## Best Practices
+- ✅ One logical change per commit
+- ✅ Test before committing
+- ✅ Use descriptive messages
+- ❌ Avoid vague messages like "fix bug"
+- ❌ Don't commit broken code
+
+---
+**Tip**: Good commits = good documentation for future you!
